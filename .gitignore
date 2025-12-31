@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+prototype/venv/
+.pytest_cache/
+
+# --- C++ ---
+# Prerequisites
+*.d
+*.obj
+*.o
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# --- Build Systems ---
+# CMake
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+build/
+
+# --- IDE Settings (Don't force your editor prefs on others) ---
+.vscode/
+.idea/
+*.swp
+
+# --- DATA ---
+# NEVER commit audio files. They are huge binary blobs.
+*.wav
+*.mp3
+*.flac
+prototype/data/
